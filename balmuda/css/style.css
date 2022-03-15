@@ -579,9 +579,12 @@ body {
 }
 
 #sc02_slider .img_slide .button_01 {
+    width: 136px;
+    height: 37px;
     position: absolute;
     top: 280px;
     left: 850px;
+    background: url("../img/01/main_visual/btn_01.png")no-repeat;
 }
 
 #sc02_slider .img_slide .button_01:hover {
@@ -596,9 +599,12 @@ body {
 }
 
 #sc02_slider .img_slide .button_02 {
+    width: 136px;
+    height: 37px;
     position: absolute;
     top: 445px;
     right: 580px;
+    background: url("../img/01/main_visual/btn_02.png")no-repeat;
 }
 
 #sc02_slider .img_slide .button_02:hover {
@@ -612,9 +618,12 @@ body {
 }
 
 #sc02_slider .img_slide .button_03 {
+    width: 136px;
+    height: 37px;
     position: absolute;
     top: 480px;
     left: 740px;
+    background: url("../img/01/main_visual/btn_01.png")no-repeat;
 }
 
 #sc02_slider .img_slide .button_03:hover {
@@ -630,11 +639,14 @@ body {
 }
 
 #sc02_slider .img_slide .button_04 {
+    width: 136px;
+    height: 37px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50% ,-50%);
     margin-top: -125px;
+    background: url("../img/01/main_visual/btn_01.png")no-repeat;
 }
 
 #sc02_slider .img_slide .button_04:hover {
