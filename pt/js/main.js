@@ -507,6 +507,16 @@ window.addEventListener('DOMContentLoaded',
             $('#text_box02 .text04').css('width', '0px');
         });
 
+        $('#text_box06').mouseenter(function () {
+            $('#text_box06 .text02').css('width', '74px');
+            $('#text_box06 .text04').css('width', '119px');
+        });
+
+        $('#text_box06 .contents').mouseleave(function () {
+            $('#text_box06 .text02').css('width', '0px');
+            $('#text_box06 .text04').css('width', '0px');
+        });
+
 
     })
 

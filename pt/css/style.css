@@ -773,8 +773,6 @@ body {
 #text_box05 .btn:hover{
     background: url("../img/page01/04/btn_01.png") no-repeat;
 }
-
-
 #text_box05 .contents {
     width: 1600px;
     height: 195px;
@@ -809,6 +807,9 @@ body {
     margin-left: 3px;
     margin-right: 6px;
 }
+
+
+
 
 
 
@@ -852,27 +853,24 @@ body {
 #text_box06 .btn:hover{
     background: url("../img/page01/04/btn_01.png") no-repeat;
 }
-
 #text_box06 .contents {
     width: 1600px;
     height: 195px;
     position: relative;
-    /*background-color: dodgerblue;*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #text_box06 .text {
-    width: 1370px;
+    width: 1450px;
     height: 71px;
     position: absolute;
     display: flex;
     justify-content: center;
-    /*background-color: dodgerblue;*/
 }
 
-#text_box06 .text .text02{
+#text_box06 .text .text02 {
     width: 74px;
     height: 74px;
     overflow: hidden;
@@ -886,9 +884,22 @@ body {
     height: 74px;
     overflow: hidden;
     transition: all .5s;
-    margin-left: 6px;
+    margin-left: 3px;
     margin-right: 6px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
