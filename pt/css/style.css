@@ -398,7 +398,7 @@ body {
 #section04{
     margin: 0 auto;
     width: 100vw;
-    height: 1420px;
+    height: 1480px;
     background: black;
     display: flex;
     justify-content: center;
@@ -733,6 +733,7 @@ body {
 
 
 
+
 #text_box05 {
     width: 1600px;
     height: 200px;
@@ -774,28 +775,24 @@ body {
 }
 
 
-
-
 #text_box05 .contents {
     width: 1600px;
     height: 195px;
     position: relative;
-    /*background-color: dodgerblue;*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #text_box05 .text {
-    width: 1370px;
+    width: 1450px;
     height: 71px;
     position: absolute;
     display: flex;
     justify-content: center;
-    /*background-color: dodgerblue;*/
 }
 
-#text_box05 .text .text02{
+#text_box05 .text .text02 {
     width: 74px;
     height: 74px;
     overflow: hidden;
@@ -809,9 +806,107 @@ body {
     height: 74px;
     overflow: hidden;
     transition: all .5s;
+    margin-left: 3px;
+    margin-right: 6px;
+}
+
+
+
+
+#text_box06 {
+    width: 1600px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+#text_box06 .line01 {
+    width: 1600px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#text_box06 .line02 {
+    width: 1600px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#text_box06 .btn {
+    width: 150px;
+    height: 150px;
+    background: url("../img/page01/04/btn.png") no-repeat;
+    position: absolute;
+    right: -90px;
+    top: 30px;
+}
+
+#text_box06 .btn:hover{
+    background: url("../img/page01/04/btn_01.png") no-repeat;
+}
+
+#text_box06 .contents {
+    width: 1600px;
+    height: 195px;
+    position: relative;
+    /*background-color: dodgerblue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text_box06 .text {
+    width: 1370px;
+    height: 71px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /*background-color: dodgerblue;*/
+}
+
+#text_box06 .text .text02{
+    width: 74px;
+    height: 74px;
+    overflow: hidden;
+    transition: all .5s;
     margin-left: 6px;
     margin-right: 6px;
 }
+
+#text_box06 .text .text04{
+    width: 119px;
+    height: 74px;
+    overflow: hidden;
+    transition: all .5s;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #section05{
