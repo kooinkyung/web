@@ -110,7 +110,7 @@ window.addEventListener('DOMContentLoaded',
                 $('.about').addClass('on');
             }
 
-            if (scrollTop >= 28000) {
+            if (scrollTop >= 27500) {
                 $('.thanks').addClass('on');
             }
 

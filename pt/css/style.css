@@ -312,7 +312,13 @@ body {
     height: 167px;
     position: absolute;
     right: 100px;
-    top: 220px;
+    top: 250px;
+}
+
+#section03 .inner .right a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
 }
 
 #section03 .inner .right .img{
@@ -368,7 +374,7 @@ body {
 }
 
 #section03 .inner .right .img .tag_04 {
-    width: 312px;
+    width: 430px;
     height: 63px;
     background: url("../img/page01/03/tag/tag_04.png")no-repeat;
 }
@@ -957,7 +963,7 @@ body {
 
 @keyframes txt {
     to{
-        transform: translateX(-3220px);
+        transform: translateX(-5000px);
     }
 }
 

@@ -2385,3 +2385,11 @@
     align-items: center;
     margin: 0 auto;
 }
+
+#next_feev .text {
+    width: 627px;
+    height: 131px;
+    position: absolute;
+    left: 1250px;
+    top: 300px;
+}

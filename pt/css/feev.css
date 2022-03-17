@@ -673,3 +673,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+#next_promotion .text {
+    width: 627px;
+    height: 131px;
+    position: absolute;
+    left: 650px;
+    top: 300px;
+}

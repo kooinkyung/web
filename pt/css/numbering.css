@@ -2046,13 +2046,13 @@
 #munch{
     margin: 0 auto;
     width: 100vw;
-    height: 750px;
+    height: 745px;
     background: #ff5b02;
 }
 
 #munch.contents {
     width: 1920px;
-    height: 750px;
+    height: 745px;
     position: relative;
     margin: 0 auto;
 }
@@ -2075,11 +2075,18 @@
 
 #munch .contents .inner {
     width: 1920px;
-    height: 750px;
+    height: 745px;
     position: relative;
-    background: url("../img/page04/11/munch.png")no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+}
+
+#munch .text {
+    width: 627px;
+    height: 131px;
+    position: absolute;
+    left: 200px;
+    top: 300px;
 }
