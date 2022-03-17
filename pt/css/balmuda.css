@@ -1113,6 +1113,9 @@ body {
     justify-content: center;
 }
 
+#section07 .contents .inner .startPoint {
+}
+
 #section07 .contents .inner .head_06{
     width: 1920px;
     height: 55px;
@@ -1294,10 +1297,11 @@ body {
 #section08 .contents {
     width: 100vw;
     height: 750px;
-    position: relative;
+    position: revert;
     background: black;
     margin: 0 auto;
 }
+
 
 #section08 .contents> div::after{
     content: '';
@@ -1319,17 +1323,16 @@ body {
     width: 1920px;
     height: 750px;
     position: relative;
-    background: url("../img/page02/08/bg.png");
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 }
 
-#section08 .contents .inner .text {
+#section08 .text {
     width: 627px;
-    height: 156px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    height: 131px;
+    position: absolute;
+    left: 650px;
+    top: 300px;
 }
