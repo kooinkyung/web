@@ -144,7 +144,7 @@
     transition:  all 2.5s;
 }
 
-#nm_overview.on .contents .inner >div:nth-child(3){transition-delay: 2.0s;
+#nm_overview.on .contents .inner >div:nth-child(3){transition-delay: 1.5s;
 }
 
 #nm_overview .contents .inner .ov_text{
@@ -167,9 +167,9 @@
     transition:  all 2s;
 }
 
-#nm_overview .contents .inner .ov_text.on >div:nth-child(2){transition-delay: 1.0s}
-#nm_overview .contents .inner .ov_text.on >div:nth-child(3){transition-delay: 1.5s}
-#nm_overview .contents .inner .ov_text.on >div:nth-child(4){transition-delay: 1.5s}
+#nm_overview .contents .inner .ov_text.on >div:nth-child(2){transition-delay: 0.5s}
+#nm_overview .contents .inner .ov_text.on >div:nth-child(3){transition-delay: 1.0s}
+#nm_overview .contents .inner .ov_text.on >div:nth-child(4){transition-delay: 1.2s}
 
 
 #nm_overview .contents .inner .ov_text .overview {
@@ -363,7 +363,7 @@
     transition: all 2s;
 }
 
-#nm_text .contents .inner .solution_01.on >div:nth-child(2){transition-delay: 1.2s}
+#nm_text .contents .inner .solution_01.on >div:nth-child(2){transition-delay: 0.8s}
 
 #nm_text .contents .inner .solution_01 .solution_text {
     width: 900px;
@@ -399,7 +399,7 @@
 
 #nm_text .contents .inner .solution_01 .solution_img .arr >div{
     opacity: 0;
-    transform: translateY(100px);
+    transform: translateY(150px);
     transition: 1s;
 }
 
@@ -505,11 +505,11 @@
     transition: 2s;
 }
 
-#nm_img .contents .inner .img_text.on >div:nth-child(1){transition-delay: 0.5s}
-#nm_img .contents .inner .img_text.on >div:nth-child(2){transition-delay: 1.3s}
-#nm_img .contents .inner .img_text.on >div:nth-child(3){transition-delay: 1.9s}
-#nm_img .contents .inner .img_text.on >div:nth-child(4){transition-delay: 3.0s}
-#nm_img .contents .inner .img_text.on >div:nth-child(5){transition-delay: 3.4s}
+#nm_img .contents .inner .img_text.on >div:nth-child(1){transition-delay: 0.2s}
+#nm_img .contents .inner .img_text.on >div:nth-child(2){transition-delay: 0.5s}
+#nm_img .contents .inner .img_text.on >div:nth-child(3){transition-delay: 0.7s}
+#nm_img .contents .inner .img_text.on >div:nth-child(4){transition-delay: 1.5s}
+#nm_img .contents .inner .img_text.on >div:nth-child(5){transition-delay: 1.7s}
 
 
 #nm_img .contents .inner .img_text .text_01 {
@@ -802,9 +802,9 @@
     transition: 2.5s;
 }
 
-#nm_intro.on .contents .inner >div:nth-child(1){transition-delay: 0.7s}
-#nm_intro.on .contents .inner >div:nth-child(2){transition-delay: 1.3s}
-#nm_intro.on .contents .inner >div:nth-child(3){transition-delay: 4.0s}
+#nm_intro.on .contents .inner >div:nth-child(1){transition-delay: 0.3s}
+#nm_intro.on .contents .inner >div:nth-child(2){transition-delay: 1.0s}
+#nm_intro.on .contents .inner >div:nth-child(3){transition-delay: 2.2s}
 
 #nm_intro .contents .inner .iphone {
     width:399px;
@@ -863,9 +863,9 @@
     transition: all 2s;
 }
 
-#nm_intro .contents .inner .intro_page.on >div:nth-child(1){transition-delay: 0.6s}
-#nm_intro .contents .inner .intro_page.on >div:nth-child(2){transition-delay: 0.9s}
-#nm_intro .contents .inner .intro_page.on >div:nth-child(4){transition-delay: 2.2s}
+#nm_intro .contents .inner .intro_page.on >div:nth-child(1){transition-delay: 0.3s}
+#nm_intro .contents .inner .intro_page.on >div:nth-child(2){transition-delay: 0.5s}
+#nm_intro .contents .inner .intro_page.on >div:nth-child(4){transition-delay: 1.0s}
 
 #nm_intro .contents .inner .intro_page .page_01 {
     width:353px;
@@ -992,7 +992,7 @@
 }
 
 #nm_main .contents .inner .ma_iphone>div{
-    transform: translateY(100px);
+    transform: translateY(150px);
     opacity: 0;
     transition: all 2s;
 }
@@ -1003,7 +1003,7 @@
     transition: all 2s;
 }
 
-#nm_main .contents .inner .ma_iphone.on>div:nth-child(2){transition-delay: 2.6s}
+#nm_main .contents .inner .ma_iphone.on>div:nth-child(2){transition-delay: 2.0s}
 
 
 #nm_main .contents .inner .ma_iphone .iphone {
@@ -1098,11 +1098,11 @@
     transition: all 2s;
 }
 
-#nm_main .contents .inner .ma_page.on >div:nth-child(1){transition-delay: 3.5s}
-#nm_main .contents .inner .ma_page.on >div:nth-child(2){transition-delay: 4.0s}
-#nm_main .contents .inner .ma_page.on >div:nth-child(4){transition-delay: 2.0s}
-#nm_main .contents .inner .ma_page.on >div:nth-child(5){transition-delay: 4.5s}
-#nm_main .contents .inner .ma_page.on >div:nth-child(6){transition-delay: 6.0s}
+#nm_main .contents .inner .ma_page.on >div:nth-child(1){transition-delay: 2.5s}
+#nm_main .contents .inner .ma_page.on >div:nth-child(2){transition-delay: 3.0s}
+#nm_main .contents .inner .ma_page.on >div:nth-child(4){transition-delay: 1.0s}
+#nm_main .contents .inner .ma_page.on >div:nth-child(5){transition-delay: 2.5s}
+#nm_main .contents .inner .ma_page.on >div:nth-child(6){transition-delay: 4.0s}
 
 #nm_main .contents .inner .ma_page .page_02 {
     width:441px;
@@ -1164,8 +1164,8 @@
     transition: all 3s;
 }
 
-#nm_main .contents .inner .main_bg.on >div:nth-child(2){transition-delay: 1.2s}
-#nm_main .contents .inner .main_bg.on >div:nth-child(3){transition-delay: 5.5s}
+#nm_main .contents .inner .main_bg.on >div:nth-child(2){transition-delay: 1.0s}
+#nm_main .contents .inner .main_bg.on >div:nth-child(3){transition-delay: 3.5s}
 
 #nm_main .contents .inner .main_bg .bg_01 {
     width: 470px;
@@ -1323,7 +1323,7 @@
 }
 
 #nm_page .contents .inner .pt_01.on >div:nth-child(2){transition-delay: 0.8s}
-#nm_page .contents .inner .pt_01.on >div:nth-child(3){transition-delay: 1.3s}
+#nm_page .contents .inner .pt_01.on >div:nth-child(3){transition-delay: 1.2s}
 
 
 #nm_page .contents .inner .pt_01 .iphone {
@@ -1401,10 +1401,10 @@
     transition: 2s;
 }
 
-#nm_page .contents .inner .pt_02.on >div:nth-child(2){transition-delay: 2.3s}
-#nm_page .contents .inner .pt_02.on >div:nth-child(3){transition-delay: 2.3s}
-#nm_page .contents .inner .pt_02.on >div:nth-child(4){transition-delay: 2.3s}
-#nm_page .contents .inner .pt_02.on >div:nth-child(5){transition-delay: 0.4s}
+#nm_page .contents .inner .pt_02.on >div:nth-child(2){transition-delay: 1.2s}
+#nm_page .contents .inner .pt_02.on >div:nth-child(3){transition-delay: 1.2s}
+#nm_page .contents .inner .pt_02.on >div:nth-child(4){transition-delay: 1.2s}
+#nm_page .contents .inner .pt_02.on >div:nth-child(5){transition-delay: 0.2s}
 
 
 #nm_page .contents .inner .pt_02 .iphone02 {
@@ -1498,11 +1498,11 @@
     transition: all 2s;
 }
 
-#nm_page .contents .inner .pt_03.on >div:nth-child(2){transition-delay:1.0s}
-#nm_page .contents .inner .pt_03.on >div:nth-child(3){transition-delay:2.4s}
-#nm_page .contents .inner .pt_03.on >div:nth-child(4){transition-delay:3.4s}
-#nm_page .contents .inner .pt_03.on >div:nth-child(5){transition-delay:3.4s}
-#nm_page .contents .inner .pt_03.on >div:nth-child(7){transition-delay:3.0s}
+#nm_page .contents .inner .pt_03.on >div:nth-child(2){transition-delay:0.7s}
+#nm_page .contents .inner .pt_03.on >div:nth-child(3){transition-delay:1.5s}
+#nm_page .contents .inner .pt_03.on >div:nth-child(4){transition-delay:2.0s}
+#nm_page .contents .inner .pt_03.on >div:nth-child(5){transition-delay:2.5s}
+#nm_page .contents .inner .pt_03.on >div:nth-child(7){transition-delay:2.8s}
 
 #nm_page .contents .inner .pt_03 .iphone03 {
     width:399px;

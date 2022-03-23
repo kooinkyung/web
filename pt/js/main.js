@@ -10,9 +10,9 @@ window.addEventListener('DOMContentLoaded',
 
         $('#fe_banner').addClass('on');
 
+        $('#in_banner').addClass('on');
 
-
-
+        $('#vm_banner').addClass('on');
 
 
 
@@ -32,6 +32,8 @@ window.addEventListener('DOMContentLoaded',
 
             if (scrollTop >= 1900) $('#section03').addClass('on');
 
+
+
             /*page01*/
 
             if (scrollTop >= 460) {
@@ -42,15 +44,15 @@ window.addEventListener('DOMContentLoaded',
                 $('#ov_part_01').addClass('on');
             }
 
-            if (scrollTop >= 1800) {
+            if (scrollTop >= 1660) {
                 $('#ov_part_02').addClass('on');
             }
 
-            if (scrollTop >= 2400) {
+            if (scrollTop >= 2600) {
                 $('#head_02').addClass('on');
             }
 
-            if (scrollTop >= 2600) {
+            if (scrollTop >= 2700) {
                 $('#part_01').addClass('on');
             }
 
@@ -62,7 +64,7 @@ window.addEventListener('DOMContentLoaded',
                 $('.bg_img').addClass('on');
             }
 
-            if (scrollTop >= 9500) {
+            if (scrollTop >= 9400) {
                 $('.part_02').addClass('on');
             }
 
@@ -117,37 +119,37 @@ window.addEventListener('DOMContentLoaded',
 
 
 
-            /*page02*/
+            /*munch*/
 
-            if (scrollTop >= 650) {
+            if (scrollTop >= 620) {
                 $('#mh_overview').addClass('on');
             }
 
-            if (scrollTop >= 1500) {
+            if (scrollTop >= 1450) {
                 $('#mh_background').addClass('on');
             }
 
-            if (scrollTop >= 2600) {
+            if (scrollTop >= 2550) {
                 $('#mh_research').addClass('on');
             }
 
-            if (scrollTop >= 2700) {
+            if (scrollTop >= 2600) {
                 $('.us_img').addClass('on');
             }
 
-            if (scrollTop >= 3600) {
+            if (scrollTop >= 3400) {
                 $('.persona').addClass('on');
             }
 
-            if (scrollTop >= 3700) {
+            if (scrollTop >= 3650) {
                 $('.pr_img').addClass('on');
             }
 
-            if (scrollTop >= 5300) {
+            if (scrollTop >= 5200) {
                 $('#mh_solution').addClass('on');
             }
 
-            if (scrollTop >= 5500) {
+            if (scrollTop >= 5400) {
                 $('.sl_img').addClass('on');
             }
 
@@ -155,7 +157,7 @@ window.addEventListener('DOMContentLoaded',
                 $('#mh_flow').addClass('on');
             }
 
-            if (scrollTop >= 7400) {
+            if (scrollTop >= 7300) {
                 $('#mh_style').addClass('on');
             }
 
@@ -167,19 +169,19 @@ window.addEventListener('DOMContentLoaded',
                 $('.color02').addClass('on');
             }
 
-            if (scrollTop >= 8600) {
+            if (scrollTop >= 8500) {
                 $('.logo02').addClass('on');
             }
 
-            if (scrollTop >= 8900) {
+            if (scrollTop >= 8800) {
                 $('.icon02').addClass('on');
             }
 
-            if (scrollTop >= 9000) {
+            if (scrollTop >= 8900) {
                 $('.plus_icon').addClass('on');
             }
 
-            if (scrollTop >= 10700) {
+            if (scrollTop >= 10300) {
                 $('#munch').addClass('on');
             }
 
@@ -264,11 +266,11 @@ window.addEventListener('DOMContentLoaded',
                 $('#mh_story').addClass('on');
             }
 
-            if (scrollTop >= 25600) {
+            if (scrollTop >= 25500) {
                 $('.text_point').addClass('on');
             }
 
-            if (scrollTop >= 26000) {
+            if (scrollTop >= 25800) {
                 $('#mh_life').addClass('on');
             }
 
@@ -284,7 +286,7 @@ window.addEventListener('DOMContentLoaded',
 
 
 
-            /*page03*/
+            /*numbering*/
 
             if (scrollTop >= 260) {
                 $('.gnb_ov').addClass('on');
@@ -294,7 +296,7 @@ window.addEventListener('DOMContentLoaded',
                 $('#nm_overview').addClass('on');
             }
 
-            if (scrollTop >= 600) {
+            if (scrollTop >= 550) {
                 $('.ov_text').addClass('on');
             }
 
@@ -302,15 +304,15 @@ window.addEventListener('DOMContentLoaded',
                 $('#nm_text ').addClass('on');
             }
 
-            if (scrollTop >= 2500) {
+            if (scrollTop >= 2400) {
                 $('.interview_img').addClass('on');
             }
 
-            if (scrollTop >= 3350) {
+            if (scrollTop >= 3300) {
                 $('.solution_01').addClass('on');
             }
 
-            if (scrollTop >= 3900) {
+            if (scrollTop >= 4000) {
                 $('.arr').addClass('on');
             }
 
@@ -322,7 +324,7 @@ window.addEventListener('DOMContentLoaded',
                 $('.gnb_st').addClass('on');
             }
 
-            if (scrollTop >= 6500) {
+            if (scrollTop >= 6400) {
                 $('.nm_font').addClass('on');
             }
 
@@ -334,7 +336,7 @@ window.addEventListener('DOMContentLoaded',
                 $('.gnb_in').addClass('on');
             }
 
-            if (scrollTop >= 10000) {
+            if (scrollTop >= 9900) {
                 $('#nm_intro').addClass('on');
             }
 
@@ -346,7 +348,7 @@ window.addEventListener('DOMContentLoaded',
                 $('.gnb_ma').addClass('on');
             }
 
-            if (scrollTop >= 12600) {
+            if (scrollTop >= 12300) {
                 $('.ma_iphone').addClass('on');
             }
 
@@ -370,7 +372,7 @@ window.addEventListener('DOMContentLoaded',
                 $('.pt_02').addClass('on');
             }
 
-            if (scrollTop >= 20300) {
+            if (scrollTop >= 20000) {
                 $('.pt_03').addClass('on');
             }
 
@@ -398,7 +400,7 @@ window.addEventListener('DOMContentLoaded',
 
 
 
-            /*page04*/
+            /*feev*/
 
             if (scrollTop >= 460) {
                 $('#fe_head').addClass('on');
@@ -428,7 +430,7 @@ window.addEventListener('DOMContentLoaded',
             }
 
             if (scrollTop >= 5300) {
-                $('.fe_img_02').addClass('on');
+                $('.fe_img').addClass('on');
             }
 
             if (scrollTop >= 6900) {
@@ -437,6 +439,76 @@ window.addEventListener('DOMContentLoaded',
 
             if (scrollTop >= 14550) {
                 $('#fe_vari').addClass('on');
+            }
+
+
+
+            /*injiactive*/
+
+            if (scrollTop >= 460) {
+                $('#in_head').addClass('on');
+            }
+            if (scrollTop >= 2400) {
+                $('#in_head_02').addClass('on');
+            }
+
+            if (scrollTop >= 6580) {
+                $('.in_head_03').addClass('on');
+            }
+
+            if (scrollTop >= 14300) {
+                $('.in_head_04').addClass('on');
+            }
+
+            if (scrollTop >= 690) {
+                $('.ov_part03').addClass('on');
+            }
+
+            if (scrollTop >= 1550) {
+                $('.ov_part04').addClass('on');
+            }
+            if (scrollTop >= 2800) {
+                $('.in_inner').addClass('on');
+            }
+
+            if (scrollTop >= 5200) {
+                $('.in_img').addClass('on');
+            }
+
+            if (scrollTop >= 6900) {
+                $('#in_detail').addClass('on');
+            }
+
+            if (scrollTop >= 14550) {
+                $('#in_vari').addClass('on');
+            }
+
+
+
+            /*vmd*/
+
+            if (scrollTop >= 426) {
+                $('.vm_inner').addClass('on');
+            }
+
+            if (scrollTop >= 1925) {
+                $('.visual_01').addClass('on');
+            }
+
+            if (scrollTop >= 4000) {
+                $('.visual_02').addClass('on');
+            }
+
+            if (scrollTop >= 6100) {
+                $('.visual_03').addClass('on');
+            }
+
+            if (scrollTop >= 8100) {
+                $('.visual_04').addClass('on');
+            }
+
+            if (scrollTop >= 9550) {
+                $('.vm_visual').addClass('on');
             }
 
 

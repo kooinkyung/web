@@ -244,10 +244,10 @@
     transition: all 0.5s;
 }
 
-#mh_background.on .contents .inner .news>div:nth-child(1){transition-delay: 0.9s}
-#mh_background.on .contents .inner .news>div:nth-child(2){transition-delay: 1.2s}
-#mh_background.on .contents .inner .news>div:nth-child(3){transition-delay: 1.7s}
-#mh_background.on .contents .inner .news>div:nth-child(4){transition-delay: 2.3s}
+#mh_background.on .contents .inner .news>div:nth-child(1){transition-delay: 0.5s}
+#mh_background.on .contents .inner .news>div:nth-child(2){transition-delay: 0.8s}
+#mh_background.on .contents .inner .news>div:nth-child(3){transition-delay: 1.0s}
+#mh_background.on .contents .inner .news>div:nth-child(4){transition-delay: 1.3s}
 
 #mh_background .contents .inner .news .news_01 {
     position: absolute;
@@ -465,9 +465,9 @@
     transition: all 2s;
 }
 
-#mh_research .contents .inner .persona .pr_img.on >div:nth-child(1){transition-delay: 0.9s}
-#mh_research .contents .inner .persona .pr_img.on >div:nth-child(2){transition-delay: 2.0s}
-#mh_research .contents .inner .persona .pr_img.on >div:nth-child(3){transition-delay: 2.9s}
+#mh_research .contents .inner .persona .pr_img.on >div:nth-child(1){transition-delay: 0.5s}
+#mh_research .contents .inner .persona .pr_img.on >div:nth-child(2){transition-delay: 1.3s}
+#mh_research .contents .inner .persona .pr_img.on >div:nth-child(3){transition-delay: 1.8s}
 
 
 
@@ -563,8 +563,8 @@
 }
 
 #mh_solution .contents .inner .sl_img.on >div:nth-child(1){transition-delay: 0.5s}
-#mh_solution .contents .inner .sl_img.on >div:nth-child(2){transition-delay: 1.2s}
-#mh_solution .contents .inner .sl_img.on >div:nth-child(3){transition-delay: 1.8s}
+#mh_solution .contents .inner .sl_img.on >div:nth-child(2){transition-delay: 1.0s}
+#mh_solution .contents .inner .sl_img.on >div:nth-child(3){transition-delay: 1.5s}
 
 
 
@@ -602,7 +602,7 @@
 #mh_flow .contents .inner >div {
     width: 1920px;
     height: 1300px;
-    transform: translateY(130px);
+    transform: translateY(150px);
     opacity: 0;
     transition: all 2.5s;
 }
@@ -613,7 +613,7 @@
     transition: all 2.5s;
 }
 
-#mh_flow.on .contents .inner >div:nth-child(2){transition-delay: 1.2s}
+#mh_flow.on .contents .inner >div:nth-child(2){transition-delay: 0.6s}
 
 
 
@@ -706,7 +706,7 @@
 }
 
 #mh_style .contents .inner .style_img02 .font02 >div{
-    transform: translateY(50px);
+    transform: translateY(150px);
     opacity: 0;
     transition: all 0.2s;
 }
@@ -718,8 +718,8 @@
 }
 
 #mh_style .contents .inner .style_img02 .font02.on >div:nth-child(1){transition-delay: 0.3s}
-#mh_style .contents .inner .style_img02 .font02.on >div:nth-child(2){transition-delay: 0.8s}
-#mh_style .contents .inner .style_img02 .font02.on >div:nth-child(3){transition-delay: 1.5s}
+#mh_style .contents .inner .style_img02 .font02.on >div:nth-child(2){transition-delay: 0.6s}
+#mh_style .contents .inner .style_img02 .font02.on >div:nth-child(3){transition-delay: 1.0s}
 
 
 #mh_style .contents .inner .style_img02 .font02 .font_02 {
@@ -750,7 +750,7 @@
 }
 
 #mh_style .contents .inner .style_img02 .color02 >div {
-    transform: translateY(50px);
+    transform: translateY(150px);
     opacity: 0;
     transition: all 0.8s;
 }
@@ -762,9 +762,9 @@
 }
 
 #mh_style .contents .inner .style_img02 .color02.on >div:nth-child(1){transition-delay: 0.3s;}
-#mh_style .contents .inner .style_img02 .color02.on >div:nth-child(2){transition-delay: 0.8s;}
-#mh_style .contents .inner .style_img02 .color02.on >div:nth-child(3){transition-delay: 1.5s;}
-#mh_style .contents .inner .style_img02 .color02.on >div:nth-child(4){transition-delay: 1.8s;}
+#mh_style .contents .inner .style_img02 .color02.on >div:nth-child(2){transition-delay: 0.5s;}
+#mh_style .contents .inner .style_img02 .color02.on >div:nth-child(3){transition-delay: 1.2s;}
+#mh_style .contents .inner .style_img02 .color02.on >div:nth-child(4){transition-delay: 1.5s;}
 
 #mh_style .contents .inner .style_img02 .logo02 {
     width: 300px;
@@ -778,7 +778,7 @@
 }
 
 #mh_style .contents .inner .style_img02 .logo02 >div{
-    transform: translateY(50px);
+    transform: translateY(150px);
     opacity: 0;
     transition: all 1s;
 }
@@ -798,7 +798,7 @@
 }
 
 #mh_style .contents .inner .style_img02 .icon02 >div{
-    transform: translateY(90px);
+    transform: translateY(150px);
     opacity: 0;
     transition: all 2.0s;
 }
@@ -914,8 +914,8 @@
 }
 
 #munch.on .munch_text >div:nth-child(1){transition-delay: 0.3s}
-#munch.on .munch_text >div:nth-child(2){transition-delay: 1.0s}
-#munch.on .munch_text >div:nth-child(3){transition-delay: 1.5s}
+#munch.on .munch_text >div:nth-child(2){transition-delay: 0.8s}
+#munch.on .munch_text >div:nth-child(3){transition-delay: 1.1s}
 
 #munch .munch_text .mu_text02{
     transform: translatex(-100px);
@@ -2012,7 +2012,7 @@
     transition: all 1.5s;
 }
 
-#mh_story.on .contents .inner >div:nth-child(2){transition-delay: 1.0s}
+#mh_story.on .contents .inner >div:nth-child(2){transition-delay: 0.8s}
 
 #mh_story .contents .inner .st_text  .text_01 {
     width:307px;
